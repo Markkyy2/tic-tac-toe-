@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to left, #2980b9, #6dd5fa, #ffffff);
+    overflow: hidden;
+}
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.title {
+    font-size: 70px;
+    margin: 40px auto 30px auto;
+    color: white;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.cell {
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 150px;
+    height: 150px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px;
+    cursor: pointer;
+    border: 1px solid #6dd5fa;
+    background: black;
+    line-height: 150px;
+    font-size: 100px;
+}
+.status {
+    font-size: 70px;
+    color: white;
+    margin: 40px auto 20px auto;
+}
+.restart {
+    padding: 10px;
+    font-size: 45px;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
